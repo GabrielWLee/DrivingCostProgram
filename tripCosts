@@ -1,13 +1,15 @@
+//Function DrivingCost calculates the cost to drive a given number of miles
 Function DrivingCost(float drivenMiles, float milesPerGallon, float dollarsPerGallon) returns float costMiles
    costMiles = drivenMiles * (1.0 / milesPerGallon) * dollarsPerGallon
 
 Function Main() returns nothing
+//Variables
    float milesPerGallon
    float dollarsPerGallon
-
+//Read Inputs
    milesPerGallon = Get next input
    dollarsPerGallon = Get next input
-
+//Outputs the fuction
    Put DrivingCost(10.0, milesPerGallon, dollarsPerGallon) to output with 2 decimal places
    Put " " to output
    Put DrivingCost(50.0, milesPerGallon, dollarsPerGallon) to output with 2 decimal places
